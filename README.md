@@ -65,7 +65,7 @@ By following these steps and leveraging the capabilities of CNNs, you can build 
 
 ## Data
 
-The dataset consists of labeled medical images of leukemia cells. It can be downloaded from [source](https://www.kaggle.com/datasets/mehradaria/leukemia).
+The dataset consists of labeled medical images of leukemia cells. It can be downloaded from [source](https://www.kaggle.com/datasets/paultimothymooney/blood-cells/data).
 
 ## Model Architecture
 
