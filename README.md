@@ -130,9 +130,5 @@ Here are some potential references related to "Detecting Leukemia Using Convolut
 - **Article:**
   - Leukemia Blood Cell Image Classification Using Convolutional Neural Network
     - (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213626#:~:text=The%20CNN%20was%20built%20according,and%202%20fully%20connected%20layers).
-- **GitHub Repository:**
-  - (If the project is based on existing code, provide the repository link here)
-
-Note: These are just a few examples, and the specific references you use will depend on the details of your project. It's important to find credible sources that support the methods and techniques used.
 
 
