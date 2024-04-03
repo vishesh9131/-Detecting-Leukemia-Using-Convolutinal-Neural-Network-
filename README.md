@@ -1,3 +1,6 @@
+
+
+
 # Detecting Leukemia Using Convolutional Neural Network
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -9,6 +12,26 @@
 
 This project implements a Convolutional Neural Network (CNN) to detect leukemia from medical images.
 To implement a machine learning model using a CNN for this purpose, you can follow these steps:
+
+
+---
+
+# Understanding Leukemia
+
+Leukemia is a type of cancer that affects the blood and bone marrow. In healthy individuals, blood cells are produced in the bone marrow, which is a spongy tissue inside the bones. These blood cells include red blood cells, white blood cells, and platelets, each with its own function in the body.
+![Logo](https://i0.wp.com/www.pathologystudent.com/wp-content/uploads/2012/06/CML-blood-smear.jpg?ssl=1)
+
+In leukemia, there is an abnormal production of white blood cells. White blood cells are an essential part of the immune system, helping the body fight off infections and diseases. However, in leukemia, the bone marrow produces too many immature or abnormal white blood cells, which are unable to function properly.
+
+These abnormal white blood cells can crowd out healthy blood cells in the bone marrow, leading to a decrease in the production of normal red blood cells and platelets. As a result, individuals with leukemia may experience symptoms such as fatigue, weakness, frequent infections, and easy bruising or bleeding.
+
+Leukemia can be classified into different types based on the type of white blood cells affected and how quickly the disease progresses. Treatment for leukemia often involves chemotherapy, radiation therapy, targeted therapy, or stem cell transplantation, depending on the type and stage of the disease.
+
+Overall, leukemia is a complex and challenging disease that requires comprehensive medical care and support. Increased awareness, early detection, and advancements in treatment options are essential in improving outcomes for individuals affected by leukemia.
+
+---
+ 
+
 
 **Data Collection and Preprocessing:**
 - Gather a dataset of medical images containing both leukemia-positive and leukemia-negative samples.
