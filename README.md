@@ -19,7 +19,10 @@ To implement a machine learning model using a CNN for this purpose, you can foll
 # Understanding Leukemia
 
 Leukemia is a type of cancer that affects the blood and bone marrow. In healthy individuals, blood cells are produced in the bone marrow, which is a spongy tissue inside the bones. These blood cells include red blood cells, white blood cells, and platelets, each with its own function in the body.
-![Logo](https://i0.wp.com/www.pathologystudent.com/wp-content/uploads/2012/06/CML-blood-smear.jpg?ssl=1)
+<!-- ![Logo](https://i0.wp.com/www.pathologystudent.com/wp-content/uploads/2012/06/CML-blood-smear.jpg?ssl=1) -->
+<img src="https://i0.wp.com/www.pathologystudent.com/wp-content/uploads/2012/06/CML-blood-smear.jpg?ssl=1" alt="Image" width="50%"> 
+<img src="https://learnopencv.com/wp-content/uploads/2023/10/Convolutional-Neural-Network.png" alt="Image" width="50%">
+
 
 In leukemia, there is an abnormal production of white blood cells. White blood cells are an essential part of the immune system, helping the body fight off infections and diseases. However, in leukemia, the bone marrow produces too many immature or abnormal white blood cells, which are unable to function properly.
 
@@ -82,9 +85,9 @@ By following these steps and leveraging the capabilities of CNNs, you can build 
 ## Usage
 
 1. Download the dataset and preprocess it (if needed).
-2. Train the model using `train.py`.
-3. Evaluate the model using `evaluate.py`.
-4. Use the trained model for inference.
+3. Train the model using `train.py`.
+4. Evaluate the model using `evaluate.py`.
+5. Use the trained model for inference.
 
 ## Data
 
@@ -95,15 +98,23 @@ The dataset consists of labeled medical images of leukemia cells. It can be down
 The CNN architecture consists of several convolutional and pooling layers followed by fully connected layers.
 Well, a Convolutional Neural Network, or CNN for short, works kind of like that! But instead of a puzzle, we're dealing with images.
 
+<!-- ![Image](https://media.geeksforgeeks.org/wp-content/uploads/20231218174301/max.png) -->
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231218174301/max.png" alt="Image" width="50%">
+
 First, let's talk about the different parts of a CNN:
 
 - **Convolutional Layer:** This is like a little magnifying glass that scans the image, looking for important features like edges, shapes, or patterns. It does this by applying filters to small sections of the image and moving across it step by step.
 
 - **Pooling Layer:** After each convolutional layer, we use a pooling layer to shrink down the information. It's like zooming out of the puzzle to see the bigger picture. Pooling helps reduce the complexity of the model and makes it easier to process.
 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231218174414/Screenshot-from-2017-08-15-17-04-02.png" alt="Image" width="50%">
+
 - **Activation Function:** This is like a switch that decides whether a neuron should be "on" or "off" based on the information it receives. It adds non-linearity to the model, allowing it to learn more complex patterns.
 
 - **Fully Connected Layer:** Once we've looked at all the pieces of the puzzle and found the important features, we put them together in a fully connected layer. This layer connects every neuron from the previous layer to every neuron in the next layer, helping us make sense of the information.
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20231218174454/Screenshot-from-2017-08-15-17-22-40.jpg" alt="Image" width="50%">
+
 
 So, putting it all together, a CNN takes an image as input, passes it through multiple layers of convolutions, pooling, and activations to extract important features, and finally, uses fully connected layers to make predictions.
 
