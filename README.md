@@ -31,7 +31,7 @@ Overall, leukemia is a complex and challenging disease that requires comprehensi
 
 ---
  
-
+# Model Implementation
 
 **Data Collection and Preprocessing:**
 - Gather a dataset of medical images containing both leukemia-positive and leukemia-negative samples.
